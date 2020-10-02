@@ -42,6 +42,7 @@ body{
     margin-bottom: 30px;
 }
 .wrapper .sidebar .close{
+    cursor: pointer;
     position: absolute;
     padding: 3px 5px;
     border: 1px solid #666666;
@@ -101,6 +102,14 @@ body{
     background-color: #fff;
     color: #717171;
     border-bottom: 1px solid var(--bd-color);
+}
+.wrapper .main-content .header .navbar-toggler{
+    cursor: pointer;
+    transition: color .5s ease;
+}
+.wrapper .main-content .header .navbar-toggler:hover{
+    color: #262626;
+    border: 1px solid #262626;
 }
 .wrapper .main-content .info{
     margin: 20px;
